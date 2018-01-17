@@ -1,0 +1,24 @@
+{
+  "name": “dowedo-platform/core",
+  "description": “Dowedo's core code to create a web application, which based on php phalcon framework.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "homepage": "https://github.com/dowedo-platform/core",
+  "authors": [
+    {
+      "name": “Dowedo”,
+      "email": “dev@dowedo.com.cn”
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Carter\\Core\\": "src/Core"
+    },
+    "files": [
+      "src/Core/helpers.php"
+    ]
+  }
+}

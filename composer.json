@@ -1,6 +1,6 @@
 {
   "name": “dowedo-platform/core",
-  "description": “Dowedo's core code to create a web application, which based on php phalcon framework.",
+  "description": "Dowedo's core code to create a web application, which based on php phalcon framework.",
   "minimum-stability": "dev",
   "license": "MIT",
   "homepage": "https://github.com/dowedo-platform/core",

@@ -1,5 +1,5 @@
 <?php
-namespace Carter\Core\Mvc\Model\Validator;
+namespace Dowedo\Core\Mvc\Model\Validator;
 
 use Phalcon\Mvc\Model\Validator\Uniqueness as PhalconUniqueness;
 use Phalcon\Mvc\Model\ValidatorInterface;

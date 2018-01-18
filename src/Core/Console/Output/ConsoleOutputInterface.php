@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Carter\Core\Console\Output;
+namespace Dowedo\Core\Console\Output;
 
 /**
  * ConsoleOutputInterface is the interface implemented by ConsoleOutput class.

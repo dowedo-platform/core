@@ -6,7 +6,7 @@
  * Time: 12:46
  */
 
-namespace Carter\Core\Service;
+namespace Dowedo\Core\Service;
 
 
 interface Factory

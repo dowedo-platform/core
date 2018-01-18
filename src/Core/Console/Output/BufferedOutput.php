@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Carter\Core\Console\Output;
+namespace Dowedo\Core\Console\Output;
 
 /**
  * @author Jean-François Simon <contact@jfsimon.fr>

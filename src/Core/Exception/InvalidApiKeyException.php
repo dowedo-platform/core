@@ -1,5 +1,5 @@
 <?php
-namespace Carter\Core\Exception;
+namespace Dowedo\Core\Exception;
 
 
 class InvalidApiKeyException extends RuntimeException

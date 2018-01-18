@@ -6,7 +6,7 @@
  * Time: 15:25
  */
 
-namespace Carter\Core\FS\Adapters;
+namespace Dowedo\Core\FS\Adapters;
 
 use Aliyun\Common\Exceptions\ClientException;
 use Aliyun\OSS\Models\OSSObject;
@@ -17,7 +17,7 @@ use Aliyun\OSS\OSSClient;
 
 /**
  * Class AliOSS
- * @package Carter\Core\FS\Adapters
+ * @package Dowedo\Core\FS\Adapters
  */
 class AliOSS extends AbstractAdapter
 {

@@ -7,13 +7,13 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Carter\Core\Exception;
+namespace Dowedo\Core\Exception;
 
 use Phalcon\Exception as PhalconException;
 
 /**
  * Standard Exception, default status code is 500
- * @package Carter\Core\Exception
+ * @package Dowedo\Core\Exception
  */
 class StandardException extends PhalconException implements ExceptionInterface
 {

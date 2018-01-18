@@ -74,7 +74,7 @@ if (!function_exists('service')) {
 
         if (!di()->has($serviceName)) {
             list($module, $service) = explode("/", $serviceName, 2);
-            $class = "\\Carter\\Modules\\" . ucfirst($module) . "\\Services\\" . ucfirst($service);
+            $class = "\\Dowedo\\Modules\\" . ucfirst($module) . "\\Services\\" . ucfirst($service);
             di()->setShared($serviceName, $class);
         }
         return di($serviceName, $parameters);
@@ -252,7 +252,7 @@ if (!function_exists('do_round')) {
      */
     function do_round($amount)
     {
-        return \Carter\Core\Currency\Money::create($amount)->round(2)->getAmount();
+        return \Dowedo\Core\Currency\Money::create($amount)->round(2)->getAmount();
     }
 }
 
@@ -260,11 +260,11 @@ if (!function_exists('throwException')) {
     /**
      * 抛出一个RuntimeException
      * @param $message
-     * @throws \Carter\Core\Exception\RuntimeException
+     * @throws \Dowedo\Core\Exception\RuntimeException
      */
     function throwException($message)
     {
-        throw new \Carter\Core\Exception\RuntimeException($message);
+        throw new \Dowedo\Core\Exception\RuntimeException($message);
     }
 }
 
@@ -275,7 +275,7 @@ if (!function_exists("app_log")) {
      * @param string $loggerName
      * @return \Phalcon\Logger\Adapter\File
      */
-    function app_log($loggerName = 'Carter')
+    function app_log($loggerName = 'Dowedo')
     {
         $date = date('Y-m-d');
         $path = di('config')->app->log->path . DIRECTORY_SEPARATOR . $date;

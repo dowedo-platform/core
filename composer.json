@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Carter\\Core\\": "src/Core"
+      "Dowedo\\Core\\": "src/Core"
     },
     "files": [
       "src/Core/helpers.php"

@@ -1,5 +1,5 @@
 <?php
-namespace Carter\Core\Utils\Generator;
+namespace Dowedo\Core\Utils\Generator;
 
 use Phalcon\Config;
 

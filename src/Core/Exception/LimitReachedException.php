@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Carter\Core\Exception;
+namespace Dowedo\Core\Exception;
 
 
 class LimitReachedException extends RuntimeException

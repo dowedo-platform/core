@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Carter\Core\Api;
+namespace Dowedo\Core\Api;
 
 use EllipseSynergie\ApiResponse\AbstractResponse;
 use Phalcon\Http\ResponseInterface;
 
 /**
  * Class Response
- * @package Carter\Core\Api
+ * @package Dowedo\Core\Api
  */
 class Response extends AbstractResponse
 {

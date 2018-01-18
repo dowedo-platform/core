@@ -7,14 +7,14 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Carter\Core\Exception;
+namespace Dowedo\Core\Exception;
 
 /**
  * Bad Method Call Exception
  *
  * Exception thrown if a callback refers to an undefined method or if some arguments are missing.
  *
- * @package Carter\Core\Exception
+ * @package Dowedo\Core\Exception
  */
 class BadMethodCallException extends BadFunctionCallException
 {

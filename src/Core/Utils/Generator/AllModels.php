@@ -1,9 +1,9 @@
 <?php
 
-namespace Carter\Core\Utils\Generator;
+namespace Dowedo\Core\Utils\Generator;
 
 use Phalcon\Text as Utils;
-use Carter\Core\Utils\Generator\Exceptions\BuilderException;
+use Dowedo\Core\Utils\Generator\Exceptions\BuilderException;
 
 class AllModels extends Component
 {

@@ -6,13 +6,13 @@
  * Time: 17:27
  */
 
-namespace Carter\Core\OAuth2\Provider;
+namespace Dowedo\Core\OAuth2\Provider;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Entity\User;
 
-class Carter extends AbstractProvider
+class Dowedo extends AbstractProvider
 {
     public $responseType = 'string';
     public $authorizationHeader = 'token';

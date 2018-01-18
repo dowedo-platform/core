@@ -8,7 +8,7 @@
  * @package Finance
  */
 
-namespace Carter\Core\Currency;
+namespace Dowedo\Core\Currency;
 
 /**
  * ISO 4217 Currency

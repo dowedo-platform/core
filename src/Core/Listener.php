@@ -6,7 +6,7 @@
  * Time: 13:17
  */
 
-namespace Carter\Core;
+namespace Dowedo\Core;
 
 
 class Listener extends Service

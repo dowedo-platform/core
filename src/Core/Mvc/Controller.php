@@ -1,14 +1,14 @@
 <?php
-namespace Carter\Core\Mvc;
+namespace Dowedo\Core\Mvc;
 
-use Carter\Core\Api\Response;
-use Carter\Core\Exception\VerifyFailedException;
+use Dowedo\Core\Api\Response;
+use Dowedo\Core\Exception\VerifyFailedException;
 use Phalcon\Mvc\Controller as ControllerBase;
 use League\Fractal\Resource\Collection;
 
 /**
  * Class Controller
- * @package Carter\Core\Mvc
+ * @package Dowedo\Core\Mvc
  * @property Response $apiResponse
  */
 abstract class Controller extends ControllerBase

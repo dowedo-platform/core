@@ -17,7 +17,7 @@
   +------------------------------------------------------------------------+
 */
 
-namespace Carter\Core\Utils\Generator;
+namespace Dowedo\Core\Utils\Generator;
 
 /**
  * Snippet Class

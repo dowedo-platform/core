@@ -6,7 +6,7 @@
  * Time: 9:46
  */
 
-namespace Carter\Core\Mvc\Model\Transaction;
+namespace Dowedo\Core\Mvc\Model\Transaction;
 use Phalcon\Mvc\Model\TransactionInterface;
 
 
@@ -14,7 +14,7 @@ use Phalcon\Mvc\Model\TransactionInterface;
  * 扩展事务管理器，调试观察内部信息
  *
  * Class Manager
- * @package Carter\Core\Mvc\Model\Transaction
+ * @package Dowedo\Core\Mvc\Model\Transaction
  */
 class Manager extends \Phalcon\Mvc\Model\Transaction\Manager
 {

@@ -6,7 +6,7 @@
  * Time: 11:11
  */
 
-namespace Carter\Core\Utils\Generator\Exceptions;
+namespace Dowedo\Core\Utils\Generator\Exceptions;
 
 
 class BuilderException extends \Exception

@@ -8,7 +8,7 @@
  * @version     $Id: $
  * @link        http://www.ruyidai.cn
  */
-namespace Carter\Core\Mvc\Model\Behavior;
+namespace Dowedo\Core\Mvc\Model\Behavior;
 use Phalcon\Mvc\Model\Behavior;
 use Phalcon\Mvc\Model\BehaviorInterface;
 use Phalcon\Mvc\Model\Exception;

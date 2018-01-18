@@ -7,15 +7,15 @@
  */
 
 
-namespace Carter\Core;
+namespace Dowedo\Core;
 
 
-use Carter\Core\Console\Output\ConsoleOutput;
+use Dowedo\Core\Console\Output\ConsoleOutput;
 use Phalcon\Text;
 
 /**
  * Class Task
- * @package Carter\Core
+ * @package Dowedo\Core
  */
 abstract class Task extends Service
 {

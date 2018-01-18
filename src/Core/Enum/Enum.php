@@ -6,12 +6,12 @@
  * Time: 14:30
  */
 
-namespace Carter\Core\Enum;
+namespace Dowedo\Core\Enum;
 
 
 /**
  * Class Enum
- * @package Carter\Core\Enum
+ * @package Dowedo\Core\Enum
  */
 abstract class Enum implements \JsonSerializable
 {
@@ -25,7 +25,7 @@ abstract class Enum implements \JsonSerializable
     /**
      * @param string $val
      */
-    public function __construct($val = '__Carter_ENUM_DEFAULT_VALUE__')
+    public function __construct($val = '__Dowedo_ENUM_DEFAULT_VALUE__')
     {
         $reflection = new \ReflectionClass(get_called_class());
         if ($reflection->hasConstant('__default')) {
@@ -35,7 +35,7 @@ abstract class Enum implements \JsonSerializable
             }
         }
 
-        if ($val == '__Carter_ENUM_DEFAULT_VALUE__') {
+        if ($val == '__Dowedo_ENUM_DEFAULT_VALUE__') {
             $this->setValue($defaultVal);
         } else {
             $this->setValue($val);

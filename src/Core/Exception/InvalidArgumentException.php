@@ -7,14 +7,14 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Carter\Core\Exception;
+namespace Dowedo\Core\Exception;
 
 /**
  * Class InvalidArgumentException
  *
  * Exception thrown if an argument is not of the expected type.
  *
- * @package Carter\Core\Exception
+ * @package Dowedo\Core\Exception
  */
 class InvalidArgumentException extends LogicException
 {

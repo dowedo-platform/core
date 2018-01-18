@@ -6,7 +6,7 @@
  * Time: 10:22
  */
 
-namespace Carter\Core\Service\Asset;
+namespace Dowedo\Core\Service\Asset;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Cookie\CookieJar;
@@ -80,7 +80,7 @@ class BaseService extends \Phalcon\Mvc\User\Plugin
             }
         }
 
-        $resp = $this->Carter_data_handle($res);
+        $resp = $this->Dowedo_data_handle($res);
         return $resp;
     }
 
@@ -120,7 +120,7 @@ class BaseService extends \Phalcon\Mvc\User\Plugin
         return $res;
     }
 
-    public function Carter_data_handle($data = [])
+    public function Dowedo_data_handle($data = [])
     {
         $code = $data->getStatusCode();
         $body = $data->getBody();
@@ -156,7 +156,7 @@ class BaseService extends \Phalcon\Mvc\User\Plugin
             'json' => $params,
             'timeout' => 5,
         ]);
-        $resp = $this->Carter_data_handle($res);
+        $resp = $this->Dowedo_data_handle($res);
         return $resp;
     }
 }

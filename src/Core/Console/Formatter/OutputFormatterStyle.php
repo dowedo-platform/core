@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Carter\Core\Console\Formatter;
+namespace Dowedo\Core\Console\Formatter;
 
 /**
  * Formatter style class for defining styles.

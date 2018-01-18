@@ -1,6 +1,6 @@
 <?php
-namespace Carter\Core\Utils\Generator;
-use Carter\Core\Utils\Generator\Exceptions\BuilderException;
+namespace Dowedo\Core\Utils\Generator;
+use Dowedo\Core\Utils\Generator\Exceptions\BuilderException;
 use Phalcon\Config;
 /**
  * Path Class

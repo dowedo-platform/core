@@ -6,7 +6,7 @@
  * Time: 11:25
  */
 
-namespace Carter\Core;
+namespace Dowedo\Core;
 
 use GuzzleHttp\Cookie\CookieJar;
 use League\Fractal\Pagination\Cursor;
@@ -17,7 +17,7 @@ use Phalcon\Di\Injectable;
 
 /**
  * Class Service
- * @package Carter\Core\Service
+ * @package Dowedo\Core\Service
  * @property \Phalcon\Logger\Adapter\File|\Phalcon\Logger\AdapterInterface $logger
  * @property \Phalcon\Queue\Beanstalk $queue
  */

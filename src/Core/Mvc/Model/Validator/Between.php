@@ -7,7 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Carter\Core\Mvc\Model\Validator;
+namespace Dowedo\Core\Mvc\Model\Validator;
 
 use Phalcon\Mvc\Model\Validator;
 

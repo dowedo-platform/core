@@ -11,12 +11,12 @@
  
  
 
-namespace Carter\Core\Utils;
+namespace Dowedo\Core\Utils;
 
 
 /**
  * Class DateTime
- * @package Carter\Core\Utils
+ * @package Dowedo\Core\Utils
  */
 class DateTime extends \DateTime
 {

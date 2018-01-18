@@ -6,7 +6,7 @@
  * Time: 11:03
  */
 
-namespace Carter\Core\FS\Adapters;
+namespace Dowedo\Core\FS\Adapters;
 
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Config;

@@ -9,9 +9,9 @@
  */
 declare(ticks = 1);
 
-namespace Carter\Core\Daemon\Adapters;
+namespace Dowedo\Core\Daemon\Adapters;
 
-use Carter\Core\Daemon\Daemon;
+use Dowedo\Core\Daemon\Daemon;
 use Phalcon\Queue\Beanstalk\Job;
 
 class Beanstalk extends Daemon

@@ -7,11 +7,11 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Carter\Core\Exception;
+namespace Dowedo\Core\Exception;
 
 /**
  * Out Of Range Exception
- * @package Carter\Core\Exception
+ * @package Dowedo\Core\Exception
  */
 class OutOfRangeException extends LogicException
 {

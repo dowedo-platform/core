@@ -6,14 +6,14 @@
  * Time: 10:46
  */
 
-namespace Carter\Core\Exception;
+namespace Dowedo\Core\Exception;
 
 
 /**
  * Class OutOfBoundsException
  * Exception thrown if a value is not a valid key.
  * This represents errors that cannot be detected at compile time.
- * @package Carter\Core\Exception
+ * @package Dowedo\Core\Exception
  */
 class OutOfBoundsException extends RuntimeException
 {

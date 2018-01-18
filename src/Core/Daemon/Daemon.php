@@ -31,7 +31,7 @@
  **/
 declare(ticks = 1);
 
-namespace Carter\Core\Daemon;
+namespace Dowedo\Core\Daemon;
 
 class Daemon
 {

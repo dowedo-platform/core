@@ -7,12 +7,12 @@
  */
 
 
-namespace Carter\Core;
+namespace Dowedo\Core;
 
 
 /**
  * Class Job
- * @package Carter\Core
+ * @package Dowedo\Core
  */
 abstract class Job
 {

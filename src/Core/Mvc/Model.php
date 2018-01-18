@@ -8,9 +8,9 @@
  * Time: 13:06
  */
 
-namespace Carter\Core\Mvc;
+namespace Dowedo\Core\Mvc;
 
-use Carter\Core\Mvc\Model\Behavior\CheckCode;
+use Dowedo\Core\Mvc\Model\Behavior\CheckCode;
 use Phalcon\Mvc\Model as AbstractModel;
 use Phalcon\Mvc\Model\Behavior\Timestampable;
 use Phalcon\Paginator\Adapter\QueryBuilder;
@@ -25,7 +25,7 @@ AbstractModel::setup(
 
 /**
  * Class Model
- * @package Carter\Core\Mvc
+ * @package Dowedo\Core\Mvc
  */
 abstract class Model extends AbstractModel
 {

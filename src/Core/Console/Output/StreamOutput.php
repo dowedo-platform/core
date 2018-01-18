@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Carter\Core\Console\Output;
+namespace Dowedo\Core\Console\Output;
 
-use Carter\Core\Console\Formatter\OutputFormatterInterface;
+use Dowedo\Core\Console\Formatter\OutputFormatterInterface;
 
 /**
  * StreamOutput writes the output to a given stream.

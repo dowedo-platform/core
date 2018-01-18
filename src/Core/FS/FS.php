@@ -6,7 +6,7 @@
  * Time: 11:21
  */
 
-namespace Carter\Core\FS;
+namespace Dowedo\Core\FS;
 
 
 use Phalcon\Di\Injectable;

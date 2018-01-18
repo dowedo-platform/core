@@ -7,11 +7,11 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Carter\Core\Exception;
+namespace Dowedo\Core\Exception;
 
 /**
  * Class UnauthorizedException
- * @package Carter\Core\Exception
+ * @package Dowedo\Core\Exception
  */
 class UnauthorizedException extends RuntimeException
 {

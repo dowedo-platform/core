@@ -6,7 +6,7 @@
  * Time: 10:36
  */
 
-namespace Carter\Core\Mvc;
+namespace Dowedo\Core\Mvc;
 
 use League\Fractal\TransformerAbstract;
 

@@ -18,13 +18,13 @@
   +------------------------------------------------------------------------+
 */
 
-namespace Carter\Core\Utils\Generator;
+namespace Dowedo\Core\Utils\Generator;
 
 use Phalcon\Db\Column;
 use Phalcon\Text as Utils;
 use ReflectionException;
 use ReflectionClass;
-use Carter\Core\Utils\Generator\Exceptions\BuilderException;
+use Dowedo\Core\Utils\Generator\Exceptions\BuilderException;
 
 /**
  * ModelBuilderComponent

@@ -6,7 +6,7 @@
  * Time: 11:56
  */
 
-namespace Carter\Core\Mvc\View\Engine\Volt\Extension;
+namespace Dowedo\Core\Mvc\View\Engine\Volt\Extension;
 
 
 class PhpFunction

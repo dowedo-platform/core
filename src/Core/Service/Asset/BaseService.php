@@ -80,7 +80,7 @@ class BaseService extends \Phalcon\Mvc\User\Plugin
             }
         }
 
-        $resp = $this->Dowedo_data_handle($res);
+        $resp = $this->handleDowedoData($res);
         return $resp;
     }
 
@@ -120,7 +120,7 @@ class BaseService extends \Phalcon\Mvc\User\Plugin
         return $res;
     }
 
-    public function Dowedo_data_handle($data = [])
+    public function handleDowedoData($data = [])
     {
         $code = $data->getStatusCode();
         $body = $data->getBody();
@@ -156,7 +156,7 @@ class BaseService extends \Phalcon\Mvc\User\Plugin
             'json' => $params,
             'timeout' => 5,
         ]);
-        $resp = $this->Dowedo_data_handle($res);
+        $resp = $this->handleDowedoData($res);
         return $resp;
     }
 }

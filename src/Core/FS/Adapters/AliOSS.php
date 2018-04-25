@@ -53,12 +53,16 @@ class AliOSS extends AbstractAdapter
      */
     public function write($path, $contents, Config $config = null)
     {
-        $result = $this->client->putObject([
+        $options = [
             "Bucket" => $this->bucket,
             "Key" => $path,
             "Content" => $contents,
             "ContentLength" => strlen($contents)
-        ]);
+        ];
+        if ($config->has('ContentType')) {
+            $options['ContentType'] = $config->get('ContentType');
+        }
+        $result = $this->client->putObject($options);
         return $result;
     }
 

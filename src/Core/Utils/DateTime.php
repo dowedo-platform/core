@@ -8,8 +8,8 @@
  * @version     $Id: $
  * @link        http://www.ruyidai.cn
  */
- 
- 
+
+
 
 namespace Dowedo\Core\Utils;
 
@@ -116,6 +116,34 @@ class DateTime extends \DateTime
         }
 
         return $this->setDate($y, $m, $d);
+    }
+
+    /**
+     * @param int $num
+     */
+    public function addMonthSchedule($num = 1, $day = 0)
+    {
+        $date = $this->format('Y-n-j');
+        list($y, $m, $d) = explode('-', $date);
+
+        $m += $num;
+        while ($m > 12) {
+            $m -= 12;
+            $y++;
+        }
+        if ($day <= 28) {
+            //如果小于28,则直接返回$d
+            return $this->setDate($y, $m, $d);
+        } else {
+            //如果大于28,则根据$last_date进行判断,
+            //如果这个$day大于$m所在月的最后一天,则用$m月的最后一天,否则就用$day
+            $last_day = date('t', strtotime("$y-$m-1"));
+            if ($day > $last_day) {
+                return $this->setDate($y, $m, $last_day);
+            } else {
+                return $this->setDate($y, $m, $day);
+            }
+        }
     }
 
     /**

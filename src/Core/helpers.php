@@ -201,7 +201,7 @@ if (!function_exists('app_root')) {
      */
     function app_root()
     {
-        return dirname(dirname(dirname(__FILE__)));
+        return dirname($_SERVER['DOCUMENT_ROOT']);
     }
 }
 

@@ -9,6 +9,7 @@
 
 namespace Dowedo\Core;
 
+use Phalcon\Queue\Beanstalk\Job as DaemonJob;
 
 /**
  * Class Job
@@ -33,6 +34,12 @@ abstract class Job
 
         // 每次任务子进程内部重新设置数据库连接
         InitDatabase();
+    }
+
+    // 消息队列处理运行监控
+    public function registerRunCheck(DaemonJob $job, $data) {
+
+        registerRunCheck($job, $data);
     }
 
     /**

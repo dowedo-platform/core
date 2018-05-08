@@ -39,7 +39,7 @@ abstract class Job
     // 消息队列处理运行监控
     public function registerRunCheck(DaemonJob $job, $data) {
 
-        register_shutdown_function(array("registerRunCheck"), [
+        register_shutdown_function("registerRunCheck", [
             'job' => $job,
             'data' => $data
         ]);

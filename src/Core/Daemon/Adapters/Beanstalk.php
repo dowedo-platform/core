@@ -128,7 +128,7 @@ class Beanstalk extends Daemon
             }
 
             //注册消息队列处理监控
-            $objects[$tube]->registerRunCheck($job, $data);
+            $objects[$tube]->registerRunCheck($job);
             // do real job
             $result = $objects[$tube]->run($data, $log);
 
